@@ -1,0 +1,44 @@
+.login{
+    height:100vh;
+    background-color: rgb(176, 204, 230);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    .card{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(234, 222, 222);
+        padding: 20px 10px;
+        width:250px;
+        border-radius: 10px;
+        row-gap: 15px;
+        h1{
+            color: #555;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            row-gap: 10px;
+            input{
+               border: none;
+               border-bottom: 1px solid lightgray;
+              padding:10px 10px;
+              background-color: transparent;
+              outline: none;
+            }
+            button{
+                background-color: transparent;
+                border: none;
+                cursor: pointer;
+            }
+        }
+        .lower{
+            button{
+                color: blueviolet;
+                background-color: transparent;
+                border:none;
+                cursor: pointer;
+            }
+        }
+    }
+}
